@@ -49,7 +49,7 @@ int main(int argc, const char* argv[]) {
 	// ---------------- CONFIG STATE -------------------
 	CARLsim sim("image_proc", GPU_MODE, USER);
 
-	VisualStimulus stim("input/lena.dat");
+	VisualStimulus stim("input/carl.dat");
 	stim.print();
 
 	Grid3D imgDim(stim.getWidth(), stim.getHeight(), stim.getChannels());
